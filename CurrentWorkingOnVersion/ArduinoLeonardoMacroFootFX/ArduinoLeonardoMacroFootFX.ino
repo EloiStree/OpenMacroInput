@@ -1,8 +1,8 @@
 
-#include "Keyboard.h"
-#include "Mouse.h"
+//#include "Keyboard.h"
+//#include "Mouse.h"
 
-bool onOffSwitch=false;
+bool onOffSwitch=true;
 void DoAtStart(){
  // OpenCmd_Desktop();
  // DownloadUrlLinkInFolder("https://avatars0.githubusercontent.com/u/20149493");
@@ -22,17 +22,17 @@ void ButtonActiveAtStart7( ){}
 void ButtonActiveAtStart8( ){}
 void ButtonActiveAtStart9( ){}
 void ButtonActiveAtStart10( ){}
-void ButtonChange0(bool value) {if(value){Serial.println("cda");PressNumpadNumber(0, value); }}
-void ButtonChange1(bool value) {if(onOffSwitch){Serial.println("cdb");Mouse.begin();Mouse.click(MOUSE_LEFT );Mouse.end();}}
-void ButtonChange2(bool value) {if(onOffSwitch){Serial.println("cdc");Mouse.begin();Mouse.click(MOUSE_RIGHT);Mouse.end();}}
-void ButtonChange3(bool value) {if(onOffSwitch){Serial.println("cdd");PressNumpadNumber(3, value);}}
-void ButtonChange4(bool value) {if(onOffSwitch){Serial.println("cde");PressNumpadNumber(4, value);}}
-void ButtonChange5(bool value) {if(onOffSwitch){Serial.println("cdf");PressNumpadNumber(5, value);}}
-void ButtonChange6(bool value) {if(onOffSwitch){Serial.println("cdg");PressNumpadNumber(6, value);}}
-void ButtonChange7(bool value) {if(onOffSwitch){Serial.println("cdh");PressNumpadNumber(7, value);}}
-void ButtonChange8(bool value) {if(onOffSwitch){Serial.println("cdp");PressNumpadNumber(8, value);}}
-void ButtonChange9(bool value) {if(onOffSwitch){Serial.println("cdo");PressNumpadNumber(9, value);}}
-void ButtonChange10(bool value){onOffSwitch= true;}
+void ButtonChange0(bool value) {if(onOffSwitch){Serial.println("cda");PressFX(5, value); }}
+void ButtonChange1(bool value) {if(onOffSwitch){Serial.println("cdb");PressFX(6, value);}}
+void ButtonChange2(bool value) {if(onOffSwitch){Serial.println("cdc");PressFX(7, value);}}
+void ButtonChange3(bool value) {if(onOffSwitch){Serial.println("cdd");PressFX(8, value);}}
+void ButtonChange4(bool value) {if(onOffSwitch){Serial.println("cde");PressFX(9, value);}}
+void ButtonChange5(bool value) {if(onOffSwitch){Serial.println("cdf");PressFX(10, value);}}
+void ButtonChange6(bool value) {if(onOffSwitch){Serial.println("cdg");PressFX(11, value);}}
+void ButtonChange7(bool value) {if(onOffSwitch){Serial.println("cdh");PressFX(12, value);}}
+void ButtonChange8(bool value) {if(onOffSwitch){Serial.println("cdp");PressFX(12, value);}}
+void ButtonChange9(bool value) {if(onOffSwitch){Serial.println("cdo");PressFX(12, value);}}
+void ButtonChange10(bool value){}//{onOffSwitch= value;}
 
 void ButtonStay0(bool value) {}
 void ButtonStay1(bool value) {if( value){}} //{Mouse.begin();Mouse.click();Mouse.end();Serial.println("ddd");}}
@@ -41,10 +41,10 @@ void ButtonStay3(bool value) {}
 void ButtonStay4(bool value) {}
 void ButtonStay5(bool value) {}
 void ButtonStay6(bool value) {}
-void ButtonStay7(bool value) {}
+void ButtonStay7(bool value) {}//if( value){Mouse.begin();Mouse.click();Mouse.end();}}
 void ButtonStay8(bool value) {}
 void ButtonStay9(bool value) {}
-void ButtonStay10(bool value){onOffSwitch= true;}
+void ButtonStay10(bool value){}//{onOffSwitch= value;}
 
 
 //{}//
@@ -145,17 +145,17 @@ int threshold =950;
 //////////////////////////////////////////////////////////////////////////////
 
 PinState trackedPins []  = {
-  { 4 ,true, false,0,200  },//0
-  { 5 ,true, false,0,200  },//1
-  { 6 ,true, false ,0,200 },//2
-  { 7 ,true, false ,0,200 },//3
-  { 8 ,true, false,0,200  },//4
-  { 9 ,true, false ,0,200 },//5
-  { 10 ,true, false ,0,200 },//6
-  { 11,true, false ,0,200 },//7
-  { 12 ,true, false ,0,200 },//8
-  { 13 ,true, false ,0,200 },//9
-  { 14 ,true, false ,0,200 }//10
+  { 2 ,true, false,0,200  },//0
+  { 3 ,true, false,0,200  },//1
+  { 4 ,true, false ,0,200 },//2
+  { 5 ,true, false ,0,200 },//3
+  { 6 ,true, false,0,200  },//4
+  { 7 ,true, false ,0,200 },//5
+  { 8 ,true, false ,0,200 },//6
+  { 9 ,true, false ,0,200 },//7
+  { 10 ,true, false ,0,200 },//8
+  { 11 ,true, false ,0,200 },//9
+  { 12 ,true, false ,0,200 }//10
   };
 PinState analogTrackedPins []  = {
   { 0 ,true, false,0,200  },//0
@@ -414,6 +414,7 @@ void WriteText( String text){
 ///////////////////////////////////////////
 
 void PressNumpadNumber(int value, bool buttonvalue){
+  /*//
   switch(value){
     case 0:  value= 234; break;
     case 1:  value= 225; break;
@@ -437,7 +438,7 @@ void PressNumpadNumber(int value, bool buttonvalue){
     if( value >-1){
       if(buttonvalue){
        
-          Keyboard.press(value);
+         Keyboard.press(value);
         }
       else 
        
@@ -447,9 +448,10 @@ void PressNumpadNumber(int value, bool buttonvalue){
       
       
     }
-    
+  ///*/
 }
 void PressFX(int value, bool buttonvalue){
+  /*//
   switch(value){
     case 1:  value=(KEY_F1); break;
     case 2:  value=(KEY_F2); break;
@@ -477,181 +479,5 @@ void PressFX(int value, bool buttonvalue){
           Keyboard.release(value);
           }
     }
-
+ ///*/
 }
-
-void OpenCurrentFolder(){
- Keyboard.println("cmd");
- delay(500);
-}
-void AddAndCommitWithGit(){
- Keyboard.println("git status");
- delay(10);
- Keyboard.println("git add .");
- delay(2000);
- Keyboard.println("git commit -m \"Auto-commit\"");
-}
-void PullPushWithGit(){
-  AddAndCommitWithGit();
- delay(10);
- Keyboard.println("git pull");
-  AddAndCommitWithGit();
- delay(10);
- Keyboard.println("git push");
-  
-}
-void CheckCurrentStateOfProjectInSelectedFolder(){
-  OpenCurrentFolder();
- delay(10);
- Keyboard.println("git status");
-}
-void SwitchKeyboardLayout(){
-  // NEW WINDOW 10
-  // Window + Space change keyboard
-  Keyboard.press(KEY_LEFT_GUI);
-  Keyboard.press(' ');
-  Keyboard.releaseAll();
-  // OLD WINDOW 10
-  // Left Alt + Shift Change Keyboard
-  Keyboard.press(KEY_LEFT_ALT);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.releaseAll();
-}
-void OpenCmdWindow(){
-    Keyboard.releaseAll();
-    Keyboard.press(KEY_LEFT_GUI);
-    Keyboard.press('r');
-    Keyboard.releaseAll();
-    delay(100);
-    Keyboard.println("cmd");
-    delay(100);
-  }void ExitCmd(){
-  Keyboard.println("exit");
-  }
-  void OpenCmdWindowInDesktop(int delayBetween=250){
-     Keyboard.releaseAll();
-    Keyboard.press(KEY_LEFT_GUI);
-    Keyboard.press('r');
-    Keyboard.releaseAll();
-    delay(delayBetween);
-    Keyboard.println("cmd"); 
-    delay(delayBetween);
-    Keyboard.println("cd Desktop");
-    Keyboard.println("cd OneDrive/Desktop");
-    }
-    void CreateUrlFileOnDesktop(String fileName, String link){
-    OpenCmdWindowInDesktop(250);
-    
-    Keyboard.println("del "+fileName+".url"); 
-    Keyboard.println("echo [InternetShortcut] > "+fileName+".url");
-    Keyboard.println("echo URL="+link+" >> "+fileName+".url");
-    Keyboard.println("Exit");
-  
-  }
-  void SetWindowToMaxVolume(){
-    
-    delay(100);
-  Keyboard.println("sndvol -f 1111111"); 
-  Keyboard.println("Exit"); 
-  delay(300);
-   for (int i=0; i<100; i++){
-    Keyboard.press(KEY_UP_ARROW);
-    
-    Keyboard.release(KEY_UP_ARROW);
-  }
-  delay(600);
- 
- }
-
- 
-    void OpenURL(String url){
-       String msg ="start ";
-  msg.concat(url);
-   OpenCmdWindow();
-    Keyboard.println(msg); 
-  Keyboard.println("Exit"); 
-      }
- void OpenUrlToFullScreen(String url, bool soundMax , bool fullScreen){
- 
-  if(soundMax)
-  {
-    OpenCmdWindow();
-   SetWindowToMaxVolume();
-  }
-  String msg ="start ";
-  msg.concat(url);
-   OpenCmdWindow();
-    Keyboard.println(msg); 
-  //Keyboard.println("Exit"); 
-  delay(1000);
-  
-  if(fullScreen){
-    Keyboard.press(KEY_F11);
-    Keyboard.release(KEY_F11);
-    delay(1000);
-    Keyboard.print("f");
-  }
-  if(soundMax){
-  for (int i=0; i<20; i++){
-      delay(50);
-        Keyboard.press(KEY_UP_ARROW);
-      delay(50);
-        Keyboard.release(KEY_UP_ARROW);
-      }
-   }
-  
-  }
-void OpenCmd_Desktop(){
-  OpenCmdWindowInDesktop(250);
-  }
-  void OpenCmd_Images(){
- 
-    OpenCmdWindowInDesktop(250);
-    Keyboard.println("cd ../Images");
-    Keyboard.println("cd ../../Images");
-}
-void OpenCmd_Video(){
-    OpenCmdWindowInDesktop(250);
-    Keyboard.println("cd ../Videos");
-    Keyboard.println("cd ../../Videos");
-}
-void OpenCmd_Music(){
-    OpenCmdWindowInDesktop(250);
-    Keyboard.println("cd ../Music");
-    Keyboard.println("cd ../../Music");
-}
-void OpenCmd_Downloads(){
-    OpenCmdWindowInDesktop(250);
-    Keyboard.println("cd ../Downloads");
-    Keyboard.println("cd ../../Downloads");
-}
-void OpenCmd_Documents(){
- 
-    OpenCmdWindowInDesktop(250);
-    Keyboard.println("cd ../Documents");
-    Keyboard.println("cd ../../Documents");
-}
-void DownloadUrlLinkInFolder(String url){
-  String msg = "curl -O ";
-  msg.concat(url);
-    Keyboard.println(msg);
-}
-void OpenCurrentDirectory(){
-    Keyboard.println("start .");
-  }
-void DownloadUrlLinkInFolderAndOpen(String url, String fileNameWithExtension){
-  String msg = "curl -O ";
-  msg.concat(url);
-  Keyboard.println(msg);
-  msg = "start ";
-  msg.concat(fileNameWithExtension);
-  Keyboard.println(msg);
-}
-void Rename(String currentNameExt, String newNameExt){
-   String msg = "rename ";
-  msg.concat(currentNameExt);
-  msg.concat(" ");
-  msg.concat(newNameExt);
-  Keyboard.println(msg);
-  
-  }

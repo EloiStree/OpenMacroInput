@@ -22,17 +22,17 @@ void ButtonActiveAtStart7( ){}
 void ButtonActiveAtStart8( ){}
 void ButtonActiveAtStart9( ){}
 void ButtonActiveAtStart10( ){}
-void ButtonChange0(bool value) {if(value){Serial.println("cda");PressNumpadNumber(0, value); }}
-void ButtonChange1(bool value) {if(onOffSwitch){Serial.println("cdb");Mouse.begin();Mouse.click(MOUSE_LEFT );Mouse.end();}}
-void ButtonChange2(bool value) {if(onOffSwitch){Serial.println("cdc");Mouse.begin();Mouse.click(MOUSE_RIGHT);Mouse.end();}}
-void ButtonChange3(bool value) {if(onOffSwitch){Serial.println("cdd");PressNumpadNumber(3, value);}}
-void ButtonChange4(bool value) {if(onOffSwitch){Serial.println("cde");PressNumpadNumber(4, value);}}
-void ButtonChange5(bool value) {if(onOffSwitch){Serial.println("cdf");PressNumpadNumber(5, value);}}
-void ButtonChange6(bool value) {if(onOffSwitch){Serial.println("cdg");PressNumpadNumber(6, value);}}
-void ButtonChange7(bool value) {if(onOffSwitch){Serial.println("cdh");PressNumpadNumber(7, value);}}
-void ButtonChange8(bool value) {if(onOffSwitch){Serial.println("cdp");PressNumpadNumber(8, value);}}
-void ButtonChange9(bool value) {if(onOffSwitch){Serial.println("cdo");PressNumpadNumber(9, value);}}
-void ButtonChange10(bool value){onOffSwitch= true;}
+void ButtonChange0(bool value) {if(onOffSwitch){Serial.println("cda");Mouse.begin();Mouse.click(MOUSE_LEFT );Mouse.end();}}
+void ButtonChange1(bool value) {if(onOffSwitch){Serial.println("cdb");Mouse.begin();Mouse.click(MOUSE_RIGHT);Mouse.end();}}
+void ButtonChange2(bool value) {if(onOffSwitch){Serial.println("cdc");}}
+void ButtonChange3(bool value) {if(onOffSwitch){Serial.println("cdd");PressFX(12,value);}}
+void ButtonChange4(bool value) {if(onOffSwitch){Serial.println("cde");PressFX(8,value);}}
+void ButtonChange5(bool value) {if(onOffSwitch){Serial.println("cdf");PressFX(9,value);}}
+void ButtonChange6(bool value) {if(onOffSwitch){Serial.println("cdg");PressFX(10, value);}}//Mouse middle press
+void ButtonChange7(bool value) {if(onOffSwitch){Serial.println("cdh");PressFX(11, value);}}
+void ButtonChange8(bool value) {if(onOffSwitch){Serial.println("cdp");}}
+void ButtonChange9(bool value) {if(onOffSwitch){Serial.println("cdo");}}
+void ButtonChange10(bool value){onOffSwitch= true;}   
 
 void ButtonStay0(bool value) {}
 void ButtonStay1(bool value) {if( value){}} //{Mouse.begin();Mouse.click();Mouse.end();Serial.println("ddd");}}
@@ -186,8 +186,8 @@ void setup() {
 
 void loop() { 
   
-  DisplayAllAnalogValue();
-  DisplayAllDigitalValue();
+  //DisplayAllAnalogValue();
+  //DisplayAllDigitalValue();
   
 if(frame==0){
   Serial.println("-------- Start: Begin -----------");
