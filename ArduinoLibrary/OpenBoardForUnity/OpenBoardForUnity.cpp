@@ -47,6 +47,10 @@
 	 int DigitalPin::getPinNumber() {
 		 return m_pinNumber;
 	 }
+	 DeviceDigitalPinsState::DeviceDigitalPinsState() {
+
+		 DeviceDigitalPinsState::init((int) {},0);
+	 }
 	 DeviceDigitalPinsState::DeviceDigitalPinsState(PinsToFollowGroupedInfo pinsToFollow) {
 
 		 DeviceDigitalPinsState::init(pinsToFollow.m_digitalPins, pinsToFollow.m_digitalCount);
@@ -110,7 +114,7 @@
 		 return m_analogValue;
 	 }
 	 int AnalogPin::getCurrentValueAsOneDigit() {
-		 return (int)((double) m_analogValue /  102.4);
+		 return (int)((double) m_analogValue /  102.5);
 	 }
 
 	 void AnalogPin::setWithNewValue(int value) // Allow to the new value and so the previous one
@@ -148,7 +152,11 @@
 		 m_threshold = value;
 	 }
 
-	 //---------------------
+	 //--------------------- 
+	 DeviceAnalogPinsState::DeviceAnalogPinsState() {
+
+		 DeviceAnalogPinsState::init((int) {},0);
+	 }
 	 DeviceAnalogPinsState::DeviceAnalogPinsState(PinsToFollowGroupedInfo pinsToFollow) {
 
 		 DeviceAnalogPinsState::init(pinsToFollow.m_analogPins, pinsToFollow.m_analogCount);
@@ -195,14 +203,47 @@
 
 	 ////////////////////////////OPEN BOARD FOR UNITY COMPRESSION ////////////////////////////////////
 	 //
-	 /*
-	 HardwareConfiguration::HardwareConfiguration(int tx, int rx, PinsToFollowGroupedInfo pinsToFollow, int lightPin) {
-	 
+	 ///*
+	 HardwareConfiguration::HardwareConfiguration(int tx, int rx, PinsToFollowGroupedInfo pinsToFollow, int lightPin = 13)
+	 {
 		 m_bluetoothTx = tx;
 		 m_bluetoothRx = rx;
 		 m_pinForLight = lightPin;
-	     //m_digitalPins = new DeviceDigitalPinsState(pinsToFollow);
-		 //m_analogPins = new DeviceAnalogPinsState(pinsToFollow);
-	 
+		 //DeviceDigitalPinsState t(pinsToFollow);
+		 m_digitalPins = new DeviceDigitalPinsState(pinsToFollow);
+		 //DeviceAnalogPinsState y(pinsToFollow);
+		 m_analogPins = new DeviceAnalogPinsState(pinsToFollow);
+		 m_bluetoothSerial = new SoftwareSerial(rx, tx);
+		 startLightPin();
 	 }
+	 void HardwareConfiguration::startLightPin() {
+		 pinMode(m_pinForLight, OUTPUT);
+		 setLightOn(true);
+	 }
+	 void HardwareConfiguration::setLightOn(bool value) {
+		 digitalWrite(m_pinForLight, value ? HIGH : LOW);
+	 } 
+	 void HardwareConfiguration::startSerialAndBluetooth(int baud = 9600, bool startClassicSeriaToo = true) {
+		 if (startClassicSeriaToo)
+			 Serial.begin(baud);
+		 //https://www.arduino.cc/en/Reference/SoftwareSerialBegin
+         pinMode(m_bluetoothRx, INPUT);
+         pinMode(m_bluetoothTx, OUTPUT);
+		 m_bluetoothSerial->begin(baud);
+	 }
+	 void HardwareConfiguration::println(String message) {
+		 Serial.println(message);
+		 m_bluetoothSerial->println(message);
+	 }
+	 SoftwareSerial* HardwareConfiguration::getBluetoothSerial() {
+		 return m_bluetoothSerial;
+	 }
+	 char HardwareConfiguration::getReadAvalaible() {
+		
+		 if (m_bluetoothSerial->available())
+			 return m_bluetoothSerial->read();
+	 }
+
+
+
 	 //*/

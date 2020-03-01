@@ -41,6 +41,7 @@ private:
 class DeviceDigitalPinsState {
 
 public:
+	DeviceDigitalPinsState();
 	DeviceDigitalPinsState(PinsToFollowGroupedInfo pinsToFollow);
 	DeviceDigitalPinsState(int pinToListen[], int arraySize);
 	void init(int  pinToListen[], int arraySize);
@@ -92,6 +93,7 @@ private:
 class DeviceAnalogPinsState {
 
 public:
+	DeviceAnalogPinsState();
 	DeviceAnalogPinsState(PinsToFollowGroupedInfo pinsToFollow);
 	DeviceAnalogPinsState(int pinToListen[], int arraySize);
 	void init(int  pinToListen[], int arraySize);
@@ -110,28 +112,29 @@ private:
 
 
 //
-/*
+///*
 
 class HardwareConfiguration {
 
 public:
-	HardwareConfiguration(int tx, int rx,  PinsToFollowGroupedInfo& pinsToFollow,int lightPin= 13, int baud=9600);
+	HardwareConfiguration(int tx, int rx,  PinsToFollowGroupedInfo pinsToFollow,int lightPin= 13);
 
+	void setLightOn(bool value);
+	void startSerialAndBluetooth(int baud=9600, bool startClassicSeriaToo =true);
+	void println(String message);
+	SoftwareSerial* getBluetoothSerial();
+	char getReadAvalaible();
 private:
 	int m_bluetoothTx = 2;
 	int m_bluetoothRx = 3;
     int m_pinForLight = 13;
-	DeviceDigitalPinsState m_digitalPins;
-	DeviceAnalogPinsState m_analogPins;
+	DeviceDigitalPinsState* m_digitalPins=NULL;
+	DeviceAnalogPinsState* m_analogPins = NULL;
+	SoftwareSerial* m_bluetoothSerial=NULL;
 
-	void StartLightPin(int pinForLight=13);
-
-	void StartSerialAndBluetooth(int tx=2, int rx=3, int baud=9600);
-	void PrintSerial(String message);
-
-	void SetPinInformation(PinsToFollowGroupedInfo& pinsToFollow);
-	void RefreshPinsInformation();
-	void SetLightOn(bool value);
+	void startLightPin();
+	//void setPinInformation(PinsToFollowGroupedInfo& pinsToFollow);
+	//void refreshPinsInformation();
 
 };
 //*/
