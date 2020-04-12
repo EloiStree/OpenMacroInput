@@ -1,4 +1,5 @@
 # OMI : Open Macro Input
+![Hello Template](https://github.com/EloiStree/2020_02_09_OpenMacroInput/blob/master/GitHubOmiTemplate.gif?raw=true)
 Macro are one of the most powerfull tool you can use in your daily life on a computer.
 But we clearly don't have tools to trigger them. 
 
