@@ -15,3 +15,7 @@ If you want to talk about the project or resquest modification, I am here:
 - Discord: http://eloistree.page.link/talk
 
 "I will try my best to not corrupt this tools by my existancial need of money to survive. So I ask you to play thrustfully on the following license. If this project is useful to your daily life, please make donation(s): [One time(Paypal)](https://www.paypal.me/eloistree), [Montly(Patreon)](https://www.patreon.com/eloistree)"
+
+
+## Download last prototype:  
+https://github.com/EloiStree/2020_02_09_OpenMacroInput/releases  
