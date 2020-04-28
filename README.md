@@ -17,7 +17,5 @@ If you want to talk about the project or resquest modification, I am here:
 "I will try my best to not corrupt this tools by my existancial need of money to survive. So I ask you to play thrustfully on the following license. If this project is useful to your daily life, please make donation(s): [One time(Paypal)](https://www.paypal.me/eloistree), [Montly(Patreon)](https://www.patreon.com/eloistree)"
 
 
-## Download last prototype:  
-https://github.com/EloiStree/2020_02_09_OpenMacroInput/releases  
-### I am using Tap With Us, Where to I start ?
-https://github.com/EloiStree/2020_02_09_OpenMacroInput/issues/33
+## Download /Install last version:  
+https://eloistree.itch.io/omi
