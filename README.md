@@ -19,3 +19,5 @@ If you want to talk about the project or resquest modification, I am here:
 
 ## Download last prototype:  
 https://github.com/EloiStree/2020_02_09_OpenMacroInput/releases  
+### I am using Tap With Us, Where to I start ?
+https://github.com/EloiStree/2020_02_09_OpenMacroInput/issues/33
