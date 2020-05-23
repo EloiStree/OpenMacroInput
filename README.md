@@ -1,6 +1,6 @@
-I put all my hearth on that free & open source codes.
-Don't hesitate to offert me a ☕ or a  🍺 in appreciation.  
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21QCY5)
+I put all my hearth on that free & open source codes.    
+Don't hesitate to offert me a ☕ or a  🍺 in appreciation.    
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21QCY5)  
 _________________________________________
 
 # OMI : Open Macro Input
