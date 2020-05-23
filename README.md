@@ -1,4 +1,5 @@
-I put all my hearth on that free & open source codes.    
+### Before we start 😊
+I put all my heart on that free & open source project.    
 Don't hesitate to offert me a ☕ or a  🍺 in appreciation.    
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21QCY5)  
 _________________________________________
