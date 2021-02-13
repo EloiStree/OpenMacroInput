@@ -1,5 +1,5 @@
 
-Download: **[Last Build Version](https://eloistree.page.link/omilastbuild)**
+[Download & Install](DownloadAndInstallOMI)
 
 # OMI : Open Macro Input
 ## Introduction
