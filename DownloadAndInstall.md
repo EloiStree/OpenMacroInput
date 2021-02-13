@@ -1,7 +1,7 @@
 You have access to two version of the application.
 - [My last build version but can be instable](https://eloistree.page.link/omilastbuild)
   - https://eloistree.page.link/omilastbuild
-- My last publish version that is instable but less that mine xD](https://eloistree.page.link/downloadomi)
+- [My last publish version that is instable but less that mine xD](https://eloistree.page.link/downloadomi)
   - https://eloistree.page.link/downloadomi
 
 
