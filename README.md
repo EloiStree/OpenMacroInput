@@ -1,5 +1,5 @@
 
-[Download & Install](DownloadAndInstallOMI.md)
+[Download & Install](DownloadAndInstallOMI)
 
 # OMI : Open Macro Input
 ## Introduction
