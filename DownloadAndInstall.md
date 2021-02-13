@@ -5,8 +5,8 @@ You have access to two version of the application.
   - https://eloistree.page.link/downloadomi
 
 
-Remember that this is an in development tool...
-So there can have but and malfunciton.
+Remember that this is an in development tool...  
+So there can have bug and malfunciton.
 
 -------------------------
 
