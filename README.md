@@ -1,4 +1,6 @@
 
+Download: **[Last Build Version](https://eloistree.page.link/omilastbuild)**
+
 # OMI : Open Macro Input
 ## Introduction
 Macro' and Combo'' are the way of the professionnant.
@@ -31,23 +33,12 @@ That one of the reason why my code is 100% opensource for the community to check
 Avast and window consider that it is usualy a virus way to work.    
 So you will have to deal with it if you have anti-virus tool.  
 
-### Owner rules
-1. The in development version is free.
-  - You can and should report bug, but you can't complained about it.
-2. All my codes are open source and free to use under "Beerware license".
-3. The stable version of the tool is on this store: [Buy last stable version]()
-  - If you plan to not pay it, just go for the development version.  
-4. Come on the Discord: https://eloistree.page.link/discord
-  - this tool is my first "marathon": tool like this take years to reach it potential.
-  - if you see something that can be cool to be upgrade, feel free to ping it to me.
-  - I am human I need support to .
-5. If you win productivity with my tool in your job or daily life, buy the tool or offer me a beer some time-to-time.
-
 
 #### Developer Warning
-- All my code are open source but I am not coding for a community to work it. But for the community to know how I did it, and how they can did it themself.
+- All my code are open source but I am not coding for a community to work it. But for the community to know how I did it, and how they can do it themself.
   - Feel free to put your hand in the dirt and take what you need.
   - You can use it as you will but I don't want to spend 80% of my time beeing worry that I can fuck up the code of someone else when I modify it. So when you clone my tools, keep the commit id for your project. 
+
 _________________________________________
 ### Before we start 😊
 I put all my heart on that free & open source project.    
@@ -56,8 +47,6 @@ Don't hesitate to offert me a ☕ or a  🍺 in appreciation.
 _________________________________________
 
 # OMI : Open Macro Input
-Macro are one of the most powerfull tool you can use in your daily life on a computer.  
-But we clearly don't have tools to trigger them. 
 
 OMI is a group of craftable tools that allow you to execute and triggers macro from the input source you want.
 
@@ -71,8 +60,7 @@ If you want to talk about the project or resquest modification, I am here:
 - Discord: http://eloistree.page.link/talk
 - Reddit: https://www.reddit.com/r/OpenMacroInput/
 
-"I will try my best to not corrupt this tools by my existancial need of money to survive. So I ask you to play thrustfully on the following license. If this project is useful to your daily life, please make donation(s): [One time(Paypal)](https://www.paypal.me/eloistree), [Montly(Patreon)](https://www.patreon.com/eloistree)"
+Donation Invest on this project:  
+[One time(Paypal)](https://www.paypal.me/eloistree), [Montly(Patreon)](https://www.patreon.com/eloistree)"
 
 
-## Download /Install last version:  
-https://eloistree.itch.io/omi
