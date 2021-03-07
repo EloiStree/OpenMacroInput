@@ -1,13 +1,10 @@
-Where to learn how to download and install ?
-- [Download & Install](https://github.com/EloiStree/OpenMacroInput/DownloadAndInstall.md)
-Where to learn how to use ?
-- 
-- H
+
 
 ## where to start
  ⚠️ Under construciton ⚠️. 
  
- 
+ Where to learn how to download and install ?
+- [Download & Install](https://github.com/EloiStree/OpenMacroInput/DownloadAndInstall.md)
  
 If you want to use or learn about the tools, go there:  
 - [Start points for new user](https://github.com/EloiStree/2020_02_09_OpenMacroInput/projects/2)
