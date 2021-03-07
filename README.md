@@ -4,7 +4,7 @@
  ⚠️ Under construciton ⚠️. 
  
  Where to learn how to download and install ?
-- [Download & Install](https://github.com/EloiStree/OpenMacroInput/DownloadAndInstall.md)
+- [Download & Install](https://eloistree.itch.io/omi)
  
 If you want to use or learn about the tools, go there:  
 - [Start points for new user](https://github.com/EloiStree/2020_02_09_OpenMacroInput/projects/2)
@@ -29,10 +29,10 @@ Before we start ⚠️ BIG WARNING CLAIM ⚠️.
   - This project is open source meaning that anybody can do they own version. I am not responsible of their illigale actions.
 - This code is in development and as I don't have the budjet or the skills for hacker protection. Don't expect hacker protection. You are on your own if someone hack my tool to kack your computer. 
 
-**Why I am so thrustfulon the subject?**
-My tool is very powerfull and useful. And I know it. But I aware that it is also *very very very dangerous* as it allows hacker that want to harm you to hack you very powerfully.
+**Why I am so thrustfull on the subject?**  
+My tool is very powerfull and useful. And I know it. But I aware that it is also **very very very dangerous** as it allows hacker that want to harm you to hack you very powerfully.
 
-And that said, good exploration of this tool :).
+On that said... good exploration of this tool :)
 
 
 ## Developer Warning
@@ -40,18 +40,18 @@ And that said, good exploration of this tool :).
 Current license of use:
 ```
 There are none.
-I wait to know how to write one be able to hire it.
-Or I wait to hire a lawyer to write one that translate my way to see the project before proposing one.
+I am  waiting to know how to write one be able to write it.
+In a second time, I am waiting to be able hire a lawyer to write one a official one that translate my way to see how I see the open source and th efree-to-use of my project, before proposing one public to the community for validation.
 So, for the moment, feel free to use it like you want but not-commercialy and consider that I am not responsible of any bug or maintaining until future official license.
 Feel free to enjoy it for fun :)
 ```
 
-- All my code are open source... But I am not assuming at all bug and malfunction.  
+- All my code are open source... But I am not assuming at all bug and malfunction. 
+  - Bad code are fast until it makes everything slow. So I code bad code to learn and rewrite good code later when I think I know the topic enough. 
 - You are not suppose to `fork` >-> `use` . You are suppose to `fork` >-> `make it your own` >-> `use`.  
-
 - I am not coding to have a community using it. I am coding for me but I let the commmunity using it. 
   - Meaning, that I accept people working with me on it but I don't want to spend to much time doing that.
-    -  I plan to have several points where you can hook your wook on mine. If you see better ways to do it contact and work with me to add them. Less people need me, more we are are happy.
+    -  I plan to have several points where you can hook your own code on mine. If you see better ways to do it contact and work with me to add those hooks. "Less people need me, more we are are happy".
   - Meaning, that my time of work are:
     - 75% working on innovation and adding code
     - 15% refactoring and keeping the code as clean as I can
@@ -73,6 +73,7 @@ If you want to help me you can by
 - [Make a donation on Paypal](https://www.paypal.me/eloistree)
 - Finance my work for one year because you have money and think my work is usefull to the community 😊🍺.
 - Help me at 90% to administratively have goverment help to keep doing what I am doing.
+- Hiring me for a code missing to the API that you need for you project and think the commmunity could need.
 - _What ever you think could help °\ ( O_O  )/° ._
 - ...
 
@@ -84,7 +85,7 @@ _So when you see way I could do money without screwing the community, I invite y
 
 
    
-
+Hope you enjoy my tools, May the code be with you 🤘
 
 
 
