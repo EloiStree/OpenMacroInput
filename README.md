@@ -51,9 +51,9 @@ Feel free to enjoy it for fun :)
 - You are not suppose to `fork` >-> `use` . You are suppose to `fork` >-> `make it your own` >-> `use`.  
 - I am not coding to have a community using it. I am coding for me but I let the commmunity using it. 
   - Meaning, that I accept people working with me on it but I don't want to spend to much time doing that.
-    -  I plan to have several points where you can hook your own code on mine. If you see better ways to do it contact and work with me to add those hooks. "Less people need me, more we are are happy".
-  - Meaning, that my time of work are:
-    - 75% working on innovation and adding code
+    -  I plan to have several points where you can hook your own code on mine. If you see better ways to do it, I invite you to contact and work with me to add those hooks.: **"Less people need me, more we are are happy"**.
+  - Meaning, that my scheduling is:
+    - 75% working and thinking on innovation to implement code
     - 15% refactoring and keeping the code as clean as I can
     - 10% other stuffs: documenting, communicating, maintenaing ...
   - Meaning, that if you want me to code something, the best way is to make me want to code it by talking to me about it on vocal discord.
