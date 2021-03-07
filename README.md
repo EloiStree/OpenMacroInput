@@ -20,10 +20,7 @@ If you want to talk about the project or resquest modification, I am here:
 - [Issue & Bug](https://github.com/EloiStree/OpenMacroInput/issues)
 - [Topic & Disscution](https://github.com/EloiStree/OpenMacroInput/discussions)
 
-# OMI : Open Macro Input
-
-To make it short. Open Macro Input is a project to triggers macro, group of actions over time, from various ways that are ready to use, or easy to add with a bit of code.
-It is tested every weeks on various video game and software on Window but is design to work in VR and AR in the coming years. 
+## Warning
 
 Before we start ⚠️ BIG WARNING CLAIM ⚠️. 
 - This tools is reading you keyboard and mouse to assist you. If you don't trust me, don't use my application. 
@@ -38,14 +35,23 @@ My tool is very powerfull and useful. And I know it. But I aware that it is also
 And that said, good exploration of this tool :).
 
 
-#### Developer Warning
- Current license of use.
+### Developer Warning
+
+Current license of use:
+```
+There are none.
+I wait to know how to write one be able to hire it.
+Or I wait to hire a lawyer to write one that translate my way to see the project before proposing one.
+So, for the moment, feel free to use it like you want but not-commercialy and consider that I am not responsible of any bug or maintaining until future official license.
+Feel free to enjoy it for fun :)
+```
 
 - All my code are open source... But I am not assuming at all bug and malfunction.  
-You are not suppose to fork and use it. You are suppose to fork and make it your own before using it.  
+- You are not suppose to `fork` >-> `use` . You are suppose to `fork` >-> `make it your own` >-> `use`.  
 
 - I am not coding to have a community using it. I am coding for me but I let the commmunity using it. 
   - Meaning, that I accept people working with me on it but I don't want to spend to much time doing that.
+    -  I plan to have several points where you can hook your wook on mine. If you see better ways to do it contact and work with me to add them. Less people need me, more we are are happy.
   - Meaning, that my time of work are:
     - 75% working on innovation and adding code
     - 15% refactoring and keeping the code as clean as I can
@@ -54,20 +60,20 @@ You are not suppose to fork and use it. You are suppose to fork and make it your
 
 
 ### Donation, investement, support 😊
-I have a philosphy where very of my work should be free and open source...   
-So I have very big difficulty to make money.  
 
-If you want to help me in any ways, feel free to contact me.
+I have a philosphy where all my work should be free and open source...   
+So I have very big difficulty to survive...  
 
 If you want to help me you can by
 - [Sending me a ☕ or a  🍺 in appreciation.](https://ko-fi.com/E1E21QCY5)
-- [Watch video on Youtube without Adblocker](https://www.youtube.com/channel/UComxuwj8ulaREOdtNwwhI-w/videos)
+- Watch video on Youtube without Adblocker
   - [Random video of what I am coding and experimenting lately](https://www.youtube.com/channel/UComxuwj8ulaREOdtNwwhI-w/videos)
   - [Tutorial and demonstraction of how to use OMI](https://www.youtube.com/channel/UCXPtuBU3hHPDal83FyEaeHg/videos) 
 - [Propose me sponsoring that are not toxic or lying to the community](http://elositree.page.link/discord)
 - [Make a donation on Paypal](https://www.paypal.me/eloistree)
 - Finance my work for one year because you have money and think my work is usefull to the community 😊🍺.
-- Help me administratively to have goverment help to keep doing what I am doing.
+- Help me at 90% to administratively have goverment help to keep doing what I am doing.
+- _What ever you think could help °\ ( O_O  )/° ._
 - ...
 
 _I put all my heart on that free & open source project._   
