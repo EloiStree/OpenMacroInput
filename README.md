@@ -41,7 +41,7 @@ Current license of use:
 ```
 There are none.
 I am  waiting to know how to write one be able to write it.
-In a second time, I am waiting to be able hire a lawyer to write one a official one that translate my way to see how I see the open source and th efree-to-use of my project, before proposing one public to the community for validation.
+In a second time, I am waiting to be able hire a lawyer to write an official one that translate my way of seeing the open source and the free-to-use part of the project, before proposing one public to the community for validation.
 So, for the moment, feel free to use it like you want but not-commercialy and consider that I am not responsible of any bug or maintaining until future official license.
 Feel free to enjoy it for fun :)
 ```
