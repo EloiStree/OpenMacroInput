@@ -1,6 +1,6 @@
+# OMI : Open Macro Input
 
-
-## where to start
+## Where to start
  ⚠️ Under construciton ⚠️. 
  
  Where to learn how to download and install ?
@@ -35,7 +35,7 @@ My tool is very powerfull and useful. And I know it. But I aware that it is also
 And that said, good exploration of this tool :).
 
 
-### Developer Warning
+## Developer Warning
 
 Current license of use:
 ```
@@ -59,7 +59,7 @@ Feel free to enjoy it for fun :)
   - Meaning, that if you want me to code something, the best way is to make me want to code it by talking to me about it on vocal discord.
 
 
-### Donation, investement, support 😊
+## Donation, investement, support 😊
 
 I have a philosphy where all my work should be free and open source...   
 So I have very big difficulty to survive...  
