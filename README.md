@@ -28,6 +28,9 @@ So feel free to help me.
 > I won't sell my soul like ["Palmer Lucky"](https://fr.wikipedia.org/wiki/Palmer_Luckey).  
 
 
+PS: I can't be and don't want to be on every social platform.    
+All will run around the Discord <-> GitHub <-> Itch.io <-> Paypal & Ethereum  
+So feel free to star and sponsor this GitHub.  
 
 
 
