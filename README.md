@@ -23,6 +23,11 @@ Hope you enjoy my tools, May the code be with you 🤘
 Find documentation on how to use it here:   
 https://github.com/EloiStree/OpenMacroInput/wiki
 
+Where to start video:
+- [Video about OMI](https://odysee.com/@openmacroinput:1)
+- [Showcase of OMI](https://open.lbry.com/@OpenMacroInputShowcase:5?r=9YPX9F8o7UYdBrFgBpqX3KVzcwnWpueG)
+- [Tutorials of OMI](https://open.lbry.com/@OpenMacroInputHowToUse:f?r=9YPX9F8o7UYdBrFgBpqX3KVzcwnWpueG)
+- 
 -------------------------------------------------
 
 I am a solo developer.    
