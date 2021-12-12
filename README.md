@@ -9,7 +9,7 @@ But can also be used to do and control bots.
 
 > Open Macro Input stand for: "An open way to trigger and manage macros from your wanted or customable input".
 
-- [Go to Download & Install](https://eloistree.itch.io/omi)
+- [Go to Download & Install](https://openmacroinput.itch.io)
 - [Go to Discord: Any questions or talk](http://eloistree.page.link/talk)
 - [Sending me a ☕ or a  🍺 in appreciation.](https://ko-fi.com/E1E21QCY5)
 
