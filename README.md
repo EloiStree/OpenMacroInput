@@ -27,7 +27,9 @@ Where to start video:
 - [Video about OMI](https://odysee.com/@openmacroinput:1)
 - [Showcase of OMI](https://open.lbry.com/@OpenMacroInputShowcase:5?r=9YPX9F8o7UYdBrFgBpqX3KVzcwnWpueG)
 - [Tutorials of OMI](https://open.lbry.com/@OpenMacroInputHowToUse:f?r=9YPX9F8o7UYdBrFgBpqX3KVzcwnWpueG)
-- 
+  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21QCY5)  
+
 -------------------------------------------------
 
 I am a solo developer.    
