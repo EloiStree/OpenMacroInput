@@ -1,0 +1,554 @@
+
+# Listenable by Window in OMI
+```
+    A,
+    B,
+    C,
+    D,
+    E,
+    F,
+    G,
+    H,
+    I,
+    J,
+    K,
+    L,
+    M,
+    N,
+    O,
+    P,
+    Q,
+    R,
+    S,
+    T,
+    U,
+    V,
+    W,
+    X,
+    Y,
+    Z,
+    NumLock,
+    NumPad0,
+    NumPad1,
+    NumPad2,
+    NumPad3,
+    NumPad4,
+    NumPad5,
+    NumPad6,
+    NumPad7,
+    NumPad8,
+    NumPad9,
+    NumPadDecimal,
+    NumPadDivide,
+    NumPadMultiply,
+    NumPadSubstract,
+    NumPadAdd,
+    NumPadEnter,
+    NumPadPeriod,
+    NumPadEquals,
+    NumPadClear, AllClear, AC,
+    NumPadClearEntry, ClearEntry, CE,
+    NumpadMemoryAdd, MA,
+    NumpadMemoryClear, MC,
+    NumpadMemoryRecall, MR,
+    NumpadMemoryStore, MS,
+    NumpadMemorySubtract, MSub,
+    Alpha0,
+    Alpha1,
+    Alpha2,
+    Alpha3,
+    Alpha4,
+    Alpha5,
+    Alpha6,
+    Alpha7,
+    Alpha8,
+    Alpha9,
+    Up,
+    Down,
+    Right,
+    Left,
+    PageUp,
+    PageDown,
+    Home,
+    End,
+    Insert,
+    Delete, DEL,
+    F1,
+    F2,
+    F3,
+    F4,
+    F5,
+    F6,
+    F7,
+    F8,
+    F9,
+    F10,
+    F11,
+    F12,
+    F13,
+    F14,
+    F15,
+    F16,
+    F17,
+    F18,
+    F19,
+    F20,
+    F21,
+    F22,
+    F23,
+    F24,
+    WinUS_OEM_Comma,
+    WinUS_OEM_Period,
+    WinUS_OEM_Minus,
+    WinUS_OEM_PLUS,
+    WinUS_OEM_102_BackSlash,
+    WinUS_OEM_1_SemiColon,
+    WinUS_OEM_2_Slash,
+    WinUS_OEM_3_GraveAccent,
+    WinUS_OEM_4_LeftBracket,
+    WinUS_OEM_5_BackSlash,
+    WinUS_OEM_6_RightBlacket,
+    WinUS_OEM_7_Quote,
+    Space, SP,
+    CapsLock,
+    Backspace, BS,
+    Tab, HT,
+    Shift,
+    LeftShift,
+    RightShift,
+    Control,
+    LeftControl,
+    RightControl,
+    Menu,
+    Alt,
+    AltGr,
+    LeftAlt,
+    RightAlt,
+    ContextMenu,
+    Application,
+    Break,
+    ScrollLock,
+    Print,
+    PrintScreen,
+    Help,
+    SystemRequest,
+    MouseLeft,
+    MouseRight,
+    MouseMiddle,
+    MouseSupp1,
+    MouseSupp2,
+    MouseSupp3,
+    EndOfText, ETX,
+    Escape, ESC,
+    Null, NUL,
+    InformationSeparatorOne, US,
+    InformationSeparatorTwo, RS,
+    InformationSeparatorThree, GS,
+    InformationSeparatorFour, FS,
+    LineFeed, LF,
+    Return, Enter, CarriageReturn, CR,
+    Eject,
+    LaunchApplicationOne,
+    LaunchApplicationTwo,
+    LaunchMail,
+    Sleep, Power, WakeUp,
+    Select,
+    Execute,
+    Clear,
+    NextTrack,
+    PreviousTrack,
+    StopTrack,
+    Play,
+    Pause,
+    VolumeMute,
+    VolumeDown,
+    VolumeUp,
+    Zoom,
+    BrowserBack,
+    BrowserForward,
+    BrowserFavorites,
+    BrowserHome,
+    BrowserRefresh,
+    BrowserSearch,
+    BrowserStop,
+    Meta,
+    MetaLeft,
+    MetaRight,
+    LeftWindow,
+    RightWindow,
+    LeftCommand,
+    RightCommand,
+    Convert,
+    KanaMode,
+    Lang1,
+    Lang2,
+    Lang3,
+    Lang4,
+    Lang5,
+    NonConvert
+```
+
+## Triggerable on JOMI
+```
+VK_ENTER
+VK_BACK_SPACE
+VK_TAB
+VK_CANCEL
+VK_CLEAR
+VK_SHIFT
+VK_CONTROL
+VK_ALT
+VK_PAUSE
+VK_CAPS_LOCK
+VK_ESCAPE
+VK_SPACE
+VK_PAGE_UP
+VK_PAGE_DOWN
+VK_END
+VK_HOME
+VK_LEFT
+VK_UP
+VK_RIGHT
+VK_DOWN
+VK_KP_UP
+VK_KP_DOWN
+VK_KP_LEFT
+VK_KP_RIGHT
+VK_COMMA
+VK_MINUS
+VK_PERIOD
+VK_SLASH
+VK_0
+VK_1
+VK_2
+VK_3
+VK_4
+VK_5
+VK_6
+VK_7
+VK_8
+VK_9
+VK_SEMICOLON
+VK_EQUALS
+VK_A
+VK_B
+VK_C
+VK_D
+VK_E
+VK_F
+VK_G
+VK_H
+VK_I
+VK_J
+VK_K
+VK_L
+VK_M
+VK_N
+VK_O
+VK_P
+VK_Q
+VK_R
+VK_S
+VK_T
+VK_U
+VK_V
+VK_W
+VK_X
+VK_Y
+VK_Z
+VK_OPEN_BRACKET
+VK_BACK_SLASH
+VK_CLOSE_BRACKET
+VK_NUMPAD0
+VK_NUMPAD1
+VK_NUMPAD2
+VK_NUMPAD3
+VK_NUMPAD4
+VK_NUMPAD5
+VK_NUMPAD6
+VK_NUMPAD7
+VK_NUMPAD8
+VK_NUMPAD9
+VK_MULTIPLY
+VK_ADD
+VK_SEPARATOR
+VK_SUBTRACT
+VK_DECIMAL
+VK_DIVIDE
+VK_DELETE
+VK_NUM_LOCK
+VK_SCROLL_LOCK
+VK_F1
+VK_F2
+VK_F3
+VK_F4
+VK_F5
+VK_F6
+VK_F7
+VK_F8
+VK_F9
+VK_F10
+VK_F11
+VK_F12
+VK_F13
+VK_F14
+VK_F15
+VK_F16
+VK_F17
+VK_F18
+VK_F19
+VK_F20
+VK_F21
+VK_F22
+VK_F23
+VK_F24
+VK_PRINTSCREEN
+VK_INSERT
+VK_HELP
+VK_META
+VK_BACK_QUOTE
+VK_QUOTE
+VK_DEAD_GRAVE
+VK_DEAD_ACUTE
+VK_DEAD_CIRCUMFLEX
+VK_DEAD_TILDE
+VK_DEAD_MACRON
+VK_DEAD_BREVE
+VK_DEAD_ABOVEDOT
+VK_DEAD_DIAERESIS
+VK_DEAD_ABOVERING
+VK_DEAD_DOUBLEACUTE
+VK_DEAD_CARON
+VK_DEAD_CEDILLA
+VK_DEAD_OGONEK
+VK_DEAD_IOTA
+VK_DEAD_VOICED_SOUND
+VK_DEAD_SEMIVOICED_SOUND
+VK_AMPERSAND
+VK_ASTERISK
+VK_QUOTEDBL
+VK_LESS
+VK_GREATER
+VK_BRACELEFT
+VK_BRACERIGHT
+VK_AT
+VK_COLON
+VK_CIRCUMFLEX
+VK_DOLLAR
+VK_EURO_SIGN
+VK_EXCLAMATION_MARK
+VK_INVERTED_EXCLAMATION_MARK
+VK_LEFT_PARENTHESIS
+VK_NUMBER_SIGN
+VK_PLUS
+VK_RIGHT_PARENTHESIS
+VK_UNDERSCORE
+VK_WINDOWS
+VK_CONTEXT_MENU
+VK_FINAL
+VK_CONVERT
+VK_NONCONVERT
+VK_ACCEPT
+VK_MODECHANGE
+VK_ALPHANUMERIC
+VK_FULL_WIDTH
+VK_HALF_WIDTH
+VK_CODE_INPUT
+VK_INPUT_METHOD_ON_OFF
+VK_CUT
+VK_COPY
+VK_PASTE
+VK_UNDO
+VK_AGAIN
+VK_FIND
+VK_PROPS
+VK_STOP
+VK_COMPOSE
+VK_ALT_GRAPH
+VK_BEGIN
+VK_UNDEFINED
+KEY_LOCATION_UNKNOWN
+KEY_LOCATION_STANDARD
+KEY_LOCATION_LEFT
+KEY_LOCATION_RIGHT
+KEY_LOCATION_NUMPAD
+```
+## Triggerable on WOMI
+
+`winkey:[press|release|stroke|p|r|s]:nameofthekey`
+
+```
+lbutton
+rbutton
+cancel
+mbutton
+xbutton1
+xbutton2
+back
+tab
+clear
+return
+shift
+control
+menu
+pause
+capital
+hangul
+hangul
+hangul
+junja
+final
+hanja
+hanja
+escape
+convert
+nonconvert
+accept
+modechange
+space
+prior
+next
+end
+home
+left
+up
+right
+down
+select
+print
+execute
+snapshot
+insert
+delete
+help
+vk_0
+vk_1
+vk_2
+vk_3
+vk_4
+vk_5
+vk_6
+vk_7
+vk_8
+vk_9
+vk_a
+vk_b
+vk_c
+vk_d
+vk_e
+vk_f
+vk_g
+vk_h
+vk_i
+vk_j
+vk_k
+vk_l
+vk_m
+vk_n
+vk_o
+vk_p
+vk_q
+vk_r
+vk_s
+vk_t
+vk_u
+vk_v
+vk_w
+vk_x
+vk_y
+vk_z
+lwin
+rwin
+apps
+sleep
+numpad0
+numpad1
+numpad2
+numpad3
+numpad4
+numpad5
+numpad6
+numpad7
+numpad8
+numpad9
+multiply
+add
+separator
+subtract
+decimal
+divide
+f1
+f2
+f3
+f4
+f5
+f6
+f7
+f8
+f9
+f10
+f11
+f12
+f13
+f14
+f15
+f16
+f17
+f18
+f19
+f20
+f21
+f22
+f23
+f24
+numlock
+scroll
+lshift
+rshift
+lcontrol
+rcontrol
+lmenu
+rmenu
+browser_back
+browser_forward
+browser_refresh
+browser_stop
+browser_search
+browser_favorites
+browser_home
+volume_mute
+volume_down
+volume_up
+media_next_track
+media_prev_track
+media_stop
+media_play_pause
+launch_mail
+launch_media_select
+launch_app1
+launch_app2
+oem_1
+oem_plus
+oem_comma
+oem_minus
+oem_period
+oem_2
+oem_3
+oem_4
+oem_5
+oem_6
+oem_7
+oem_8
+oem_102
+processkey
+packet
+attn
+crsel
+exsel
+ereof
+play
+zoom
+noname
+pa1
+oem_clear
+```
