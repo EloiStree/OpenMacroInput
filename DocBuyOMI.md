@@ -1,1 +1,0 @@
-How to buy OMI: https://eloistree.page.link/buyomi
